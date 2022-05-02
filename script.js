@@ -1,4 +1,5 @@
-const canvas = document.querySelector('canvas');
+//bye https://www.youtube.com/watch?v=deXzu0Eregs thanks for the tutorial :Dconst canvas = document.querySelector('canvas');
+
 const ctx = canvas.getContext('2d');
 
 const resolution = 1;
@@ -72,5 +73,3 @@ function render(grid) {
     }
   }
 }
-
-//bye https://www.youtube.com/watch?v=deXzu0Eregs thanks for the tutorial :D
