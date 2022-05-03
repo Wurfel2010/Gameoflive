@@ -1,8 +1,9 @@
-//bye https://www.youtube.com/watch?v=deXzu0Eregs thanks for the tutorial :Dconst canvas = document.querySelector('canvas');
+//thanks for the THE GAME OF LIVE tutorial https://www.youtube.com/watch?v=deXzu0Eregs thanks for the tutorial :Dconst canvas = document.querySelector('canvas');
 
+const canvas = document.querySelector('canvas');
 const ctx = canvas.getContext('2d');
 
-const resolution = 1;
+const resolution = 10;
 canvas.width = 500;
 canvas.height = 500;
 
@@ -39,6 +40,7 @@ function nextGen(grid) {
           }
           const x_cell = col + i;
           const y_cell = row + j;
+          
 
           if (x_cell >= 0 && y_cell >= 0 && x_cell < COLS && y_cell < ROWS) {
             const currentNeighbour = grid[col + i][row + j];
@@ -46,7 +48,6 @@ function nextGen(grid) {
           }
         }
       }
-
       // rules
       if (cell === 1 && numNeighbours < 2) {
         nextGen[col][row] = 0;

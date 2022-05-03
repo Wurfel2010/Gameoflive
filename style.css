@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@1,300&family=Nunito&family=Orbitron:wght@500&family=Poppins:ital,wght@1,300&family=Roboto+Condensed:ital,wght@1,300&family=Roboto+Mono:ital,wght@0,400;0,500;1,400;1,700&family=Roboto:wght@300&family=Smooch+Sans:wght@500&family=Vazirmatn&display=swap');
+	::-moz-selection { background: #000000; color: #fff; }
+	::selection { background: #000000; color: #fff; }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+canvas{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}p{
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
